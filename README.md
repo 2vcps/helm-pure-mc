@@ -2,6 +2,9 @@
 
 [Minecraft](https://minecraft.net/en/) is a game about placing blocks and going on adventures.
 
+Modified for Pure Storage Demo. Not for prod. 
+Please see the original helm chart for more information.
+
 ## Introduction
 
 This chart creates a single Minecraft Pod, plus Services for the Minecraft server and RCON.
