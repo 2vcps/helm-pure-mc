@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  minecraft:
+  - created: 2018-03-26T06:26:26.724481456-07:00
+    description: Minecraft server
+    digest: ac0602072fcc15ad5c29b664bbb12471f384d3b5df0970e794a4ee7f20b8ed2c
+    keywords:
+    - game
+    - server
+    maintainers:
+    - email: gtaylor@gc-taylor.com
+      name: Greg Taylor
+    name: minecraft
+    sources:
+    - https://hub.docker.com/r/itzg/minecraft-server/~/dockerfile/
+    - https://github.com/itzg/dockerfiles
+    urls:
+    - minecraft-0.2.0.tgz
+    version: 0.2.0
+generated: 2018-03-26T06:26:26.723771623-07:00
