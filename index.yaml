@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   minecraft:
-  - created: 2018-03-26T06:26:26.724481456-07:00
+  - created: 2018-03-28T05:59:59.582000782-07:00
     description: Minecraft server
-    digest: ac0602072fcc15ad5c29b664bbb12471f384d3b5df0970e794a4ee7f20b8ed2c
+    digest: 34648de87df0c39fbdb31aa687fe755d99e54f365353c24a9a6383f6282ef448
     keywords:
     - game
     - server
@@ -17,4 +17,4 @@ entries:
     urls:
     - minecraft-0.2.0.tgz
     version: 0.2.0
-generated: 2018-03-26T06:26:26.723771623-07:00
+generated: 2018-03-28T05:59:59.581128841-07:00
