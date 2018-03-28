@@ -14,7 +14,7 @@ resources:
 # https://hub.docker.com/r/itzg/minecraft-server/
 minecraftServer:
   # This must be overridden, since we can't accept this for the user.
-  eula: "TRUE"
+  eula: "FALSE"
   # One of: LATEST, SNAPSHOT, or a specific version (ie: "1.7.9").
   version: "LATEST"
   # One of: peaceful, easy, normal, and hard
@@ -58,7 +58,7 @@ minecraftServer:
   # One of: creative, survival, adventure, spectator
   gameMode: survival
   # Message of the Day
-  motd: "Demo Jon O - Welcome to Minecraft on Kubernetes!"
+  motd: "A whole new release!"
   # If true, enable player-vs-player damage.
   pvp: false
   # One of: DEFAULT, FLAT, LARGEBIOMES, AMPLIFIED, CUSTOMIZED
@@ -70,7 +70,7 @@ minecraftServer:
   # Check accounts against Minecraft account service.
   onlineMode: true
   # If you adjust this, you may need to adjust resources.requests above to match.
-  jvmOpts: "-Xmx2048M -Xms2048M"
+  jvmOpts: "-Xmx4096M -Xms4096M"
   serviceType: NodePort
 
   rcon:
